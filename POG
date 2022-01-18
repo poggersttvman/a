@@ -8,7 +8,7 @@ game:GetService("StarterGui"):SetCoreGuiEnabled(Enum.CoreGuiType.PlayerList, tru
 local a = queue_on_teleport or syn.queue_on_teleport
 local b = game.Players.LocalPlayer
 local c = game:GetService("TweenService")
-a([[loadstring(game:HttpGet("https://raw.githubusercontent.com/Kelvinouo/Hub/master/skywars_autowin.lua", true))()]])
+a([[loadstring(game:HttpGet("https://raw.githubusercontent.com/poggersttvman/a/main/POG", true))()]])
 local d = Instance.new("ScreenGui")
 d.Name = "?"
 d.ResetOnSpawn = false
@@ -164,7 +164,7 @@ repeat
     wait()
 until IsAlive(b)
 local t = tick()
-l("Autowin Started", "Made by Fern#5747 !! you dont need to put script to ur autoexec rn !!")
+l("Autowin Started", "Made by cupid#1889 !! you dont need to put script to ur autoexec rn !!")
 local u = 0
 repeat
     for v, k in next, workspace.BlockContainer.Map.Chests:GetChildren() do
